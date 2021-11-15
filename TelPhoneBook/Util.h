@@ -1,3 +1,4 @@
 #pragma once
 
-void Menu()
+void Menu();
+void Flush();
