@@ -26,13 +26,13 @@ int main()
 			PrintPersonArray(&pa);
 			break;
 		case '3':
-			printf("기능 3\n");
+			SearchPersonArray(&pa);
 			break;
 		case '4':
-			printf("기능 4\n");
+			RemovePersonArray(&pa);
 			break;
 		case '5':
-			printf("기능 5\n");
+			WriteTextPersonArray(&pa);
 			break;
 		case '0':
 			run = 0;
